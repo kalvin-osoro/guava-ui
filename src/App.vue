@@ -2,6 +2,12 @@
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
+    <br>
+    <br>
+    <router-link to="/admin/product/add">AddProduct</router-link>
+    <br>
+    <br>
+    <router-link to="/admin/product">ViewProducts</router-link>
   </nav>
   <router-view/>
 </template>
